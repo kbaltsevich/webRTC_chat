@@ -1,0 +1,26 @@
+{
+  "name": "webrtc_chat",
+  "version": "1.0.0",
+  "description": "testing webrtc chat app nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbaltsevich/webRTC_chat.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "webrtc",
+    "javascript"
+  ],
+  "author": "K.Baltsevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbaltsevich/webRTC_chat/issues"
+  },
+  "homepage": "https://github.com/kbaltsevich/webRTC_chat#readme"
+}
