@@ -4,7 +4,7 @@
   "description": "testing webrtc chat app nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/kbaltsevich/webRTC_chat/issues"
   },
-  "homepage": "https://github.com/kbaltsevich/webRTC_chat#readme"
+  "homepage": "https://github.com/kbaltsevich/webRTC_chat#readme",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "peer": "^0.6.1",
+    "socket.io": "^4.5.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
